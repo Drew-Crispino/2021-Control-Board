@@ -75,7 +75,7 @@ switch21, switch22, switch23, switch24, switch25,]
 
 for x in switches:
     x.direction = digitalio.Direction.INPUT
-    x.pull = digitalio.Pull.DOWN
+    x.pull = digitalio.Pull.UP
 
 """Dials: 10"""
 dial1 = AnalogIn(board.A0)
